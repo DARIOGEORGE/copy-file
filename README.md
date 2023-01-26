@@ -6,20 +6,34 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
+Open the first file in read mode
 ### Step 2: 
- 
+ Open the second file in append mode
 ### Step 3: 
-
+Every word in first file is copied to second file using write()
 ### Step 4:  
-
+close the first filepython program for copying the contents from one file to another file.
 ### Step 5: 
-
-### Step 6: 
+close the second file
 
 ## PROGRAM:
+```
+Developed by: Dario.G
+RegisterNumber: 22008843
+f1=open("sample1.txt","r")
+f2=open("sample2.txt","a")
+for line in f1:
+    f2.write(line)
+f1.close()
+f2.close()
+```
+
+
+
+
 
 ### OUTPUT:
+![Screenshot (21)](https://user-images.githubusercontent.com/118704873/214925194-b3645958-9785-44e0-ba9e-19a7a8881e20.png)
 
 
 
